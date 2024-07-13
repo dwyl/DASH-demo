@@ -6,6 +6,16 @@ We essentially use `FFmpeg` to build the DASH files (segments and a manifest fil
 
 You can fork the repo and run this code with `mix run --no-halt` or run the `Livebook` below.
 
+## Run this
+
+You can fork and run this code with `mix run --no-halt`.
+
+You can also run this Livebook.
+The code is adapted and is a nice illustration on how to use `Kino.JS.Live`.
+
+[![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https%3A%2F%2Fgithub.com%2Fdwyl%2FDASH-demo%2Fblob%2Fmain%2Flib%2Fdash-demo.livemd)
+
+
 ## What is DASH?
 
 [DASH](https://www.mpeg.org/standards/MPEG-DASH/)
@@ -268,13 +278,4 @@ build_cmd_mp4 =
   #{manifest}
 )
 ```
-
-## Run this
-
-You can fork and run this code with `mix run --no-halt`.
-
-You can also run this Livebook.
-The code is adapted and is a nice illustration on how to use `Kino.JS.Live`.
-
-[![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https%3A%2F%2Fgithub.com%2Fdwyl%2FDASH-demo%2Fblob%2Fmain%2Flib%2Fdash-demo.livemd)
 
