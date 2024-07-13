@@ -279,4 +279,6 @@ You can fork and run this code with `mix run --no-halt`.
 
 You can also run this Livebook.
 The code is adapted and is a nice illustration on how to use `Kino.JS.Live`.
-:exclamation:
+
+[![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https%3A%2F%2Fgithub.com%2Fdwyl%2FDASH-demo%2Fblob%2Fmain%2Flib%2Fdash-demo.livemd)
+
