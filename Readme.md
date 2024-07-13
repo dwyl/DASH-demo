@@ -100,11 +100,7 @@ You may want to detect the user-agent in the browser. The [MDN documentation](ht
 
 The `MediaRecorder` has a static method [isTtypeSupported()](https://developer.mozilla.org/en-US/docs/Web/API/MediaRecorder/isTypeSupported_static) to check whether it can support a given `mimeType`. We will use this.
 
-We pass the type in the query string of WebSocket connection (for the repo only, not the Livebook where we did it differently).
-
-In the Elixir router, we capture the type and run the adequate `FFmpeg` command.
-
-We need the WebSocket handler to get the PID of the FFmpeg process. We use an `:ets` table for this.
+We send it then through the WebSocket connection.
 
 In code, this gives:
 
